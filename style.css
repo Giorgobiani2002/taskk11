@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: blueviolet;
+}
+
+.search {
+  margin: 16rem auto;
+  width: 43rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.second-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43.2rem;
+}
+
+#taskInput {
+  border: 1px solid rgba(62, 22, 113, 1);
+  border-radius: 1rem;
+  width: 38.1rem;
+  height: 4rem;
+  color: rgba(119, 119, 119, 1);
+}
+#addTask {
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 1.5rem;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43.2rem;
+}
+li {
+  width: 43.2rem;
+  height: 7.5rem;
+  background-color: rgba(21, 16, 28, 1);
+  border-radius: 1rem;
+  margin-top: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(158, 120, 207, 1);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding: 2.2rem;
+}
+.btn2 {
+  width: 1.6rem;
+  height: 1.9rem;
+  border: none;
+  background-image: url(./Vector.png);
+  cursor: pointer;
+  background-color: rgba(21, 16, 28, 1);
+}
+.btn3 {
+  width: 1.6rem;
+  height: 1.5rem;
+  border: none;
+  background-image: url(./Vector2.png);
+  cursor: pointer;
+  background-color: rgba(21, 16, 28, 1);
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: rgba(255, 255, 255, 1);
+}
